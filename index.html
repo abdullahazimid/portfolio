@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdullah Al Azim | Portfolio</title>
+  <meta name="description" content="Computer Science undergraduate, Media & Publication Secretary at IIEC-IUBAT. Graphics design, problem solving, and creative communication." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#home" class="nav__logo">Azim</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="nav__cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__media">
+        <img src="profile.jpg" alt="Abdullah Al Azim in formal attire" class="hero__img" />
+        <div class="hero__wash"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__eyebrow reveal">Portfolio 2026</p>
+        <h1 class="hero__name reveal">Abdullah Al Azim</h1>
+        <p class="hero__tagline reveal">
+          Computer Science undergraduate &amp; Media Secretary — building impact through code, design, and clear communication.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#contact" class="btn btn--primary">Get in touch</a>
+          <a href="#experience" class="btn btn--ghost">See my work</a>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll to about">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__label">About</span>
+          <h2 class="section__title">Driven by excellence,<br />shaped by curiosity</h2>
+        </div>
+        <div class="about__grid">
+          <p class="about__lead reveal">
+            Ambitious Computer Science undergraduate on a full merit scholarship, with a proven track record of academic excellence. Skilled in programming, graphic design, MS Office, and photography, with hands-on experience in tutoring and mentoring.
+          </p>
+          <p class="about__body reveal">
+            Recognized for strong problem-solving, adaptability, and team collaboration. Passionate about leveraging technology and creativity to deliver impactful results and grow within dynamic environments.
+          </p>
+          <ul class="about__facts reveal">
+            <li>
+              <span class="fact__label">Based in</span>
+              <span class="fact__value">Dhaka, Bangladesh</span>
+            </li>
+            <li>
+              <span class="fact__label">Studying</span>
+              <span class="fact__value">BSc Computer Science · IUBAT</span>
+            </li>
+            <li>
+              <span class="fact__label">Scholarship</span>
+              <span class="fact__value">Full merit · GPA 5.00 SSC &amp; HSC</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__label">Experience</span>
+          <h2 class="section__title">Roles that built me</h2>
+        </div>
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <div class="timeline__meta">
+              <time>Apr 2026 — Present</time>
+              <span class="timeline__org">IIEC Executive Committee</span>
+            </div>
+            <h3 class="timeline__role">Media &amp; Publication Secretary</h3>
+            <p>Contributing through creative communication, media management, teamwork, and professional engagement for the Innovation &amp; Entrepreneurship Center.</p>
+          </li>
+          <li class="timeline__item reveal">
+            <div class="timeline__meta">
+              <time>Feb 2024 — Present</time>
+              <span class="timeline__org">IIEC — IUBAT</span>
+            </div>
+            <h3 class="timeline__role">Graphics Designer</h3>
+            <p>Actively contributing at the university Innovation Centre — building design skills, networking, and supporting creative projects.</p>
+          </li>
+          <li class="timeline__item reveal">
+            <div class="timeline__meta">
+              <time>Mar 2019 — Present</time>
+              <span class="timeline__org">Bangladesh Red Crescent Society · Rangpur</span>
+            </div>
+            <h3 class="timeline__role">Volunteer</h3>
+            <p>Staying connected with volunteer opportunities and assisting in disaster relief — ensuring timely distribution of aid and supplies.</p>
+          </li>
+          <li class="timeline__item reveal">
+            <div class="timeline__meta">
+              <time>Jan 2019 — Jul 2023</time>
+              <span class="timeline__org">Ripon Telecom · Rangpur</span>
+            </div>
+            <h3 class="timeline__role">Salesman (Part Time)</h3>
+            <p>Helped customers choose phones, explained features, handled complaints with care, and met sales targets in a busy retail environment.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__label">Skills</span>
+          <h2 class="section__title">What I bring</h2>
+        </div>
+        <div class="skills__grid">
+          <div class="skill reveal" data-skill>
+            <h3>Technical</h3>
+            <ul>
+              <li>C / C++</li>
+              <li>Problem Solving</li>
+              <li>MS Word / Excel / PowerPoint</li>
+            </ul>
+          </div>
+          <div class="skill reveal" data-skill>
+            <h3>Creative</h3>
+            <ul>
+              <li>Graphics Designing</li>
+              <li>Photography</li>
+              <li>Media &amp; Publication</li>
+            </ul>
+          </div>
+          <div class="skill reveal" data-skill>
+            <h3>People</h3>
+            <ul>
+              <li>Communication</li>
+              <li>Negotiation</li>
+              <li>Team Collaboration</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="certs reveal">
+          <h3 class="certs__title">Certifications</h3>
+          <ul class="certs__list">
+            <li><span>Graphics Design</span><time>Jan 2022</time></li>
+            <li><span>Presentation &amp; Public Speaking</span><time>Dec 2023</time></li>
+            <li><span>Communications Specialist</span><time>May 2023</time></li>
+            <li><span>Daily Corporate Communication Hacks</span><time>May 2024</time></li>
+            <li><span>Money Management</span><time>Mar 2023</time></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education" id="education">
+      <div class="container education__wrap">
+        <div class="section__head reveal">
+          <span class="section__label">Education</span>
+          <h2 class="section__title">Academic path</h2>
+        </div>
+        <article class="edu reveal">
+          <p class="edu__when">Expected Feb 2027</p>
+          <h3 class="edu__degree">Bachelor of Science — Computer Science</h3>
+          <p class="edu__school">IUBAT — International University of Business Agriculture and Technology, Dhaka</p>
+          <p class="edu__desc">
+            Currently in the first stage of third year. Awarded a full free scholarship based on outstanding academic performance — perfect GPA of 5.00 in both SSC and HSC. Developing skills toward becoming a future Computer Engineer.
+          </p>
+        </article>
+        <aside class="hobby reveal">
+          <h3>Beyond the classroom</h3>
+          <p>
+            An avid reader with a strong interest in technology, personal development, and contemporary issues. Reading keeps me updated, thinking critically, and broadening perspective — in both academic and professional contexts.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact__wrap">
+        <div class="section__head reveal">
+          <span class="section__label">Contact</span>
+          <h2 class="section__title">Let’s connect</h2>
+          <p class="contact__lead">Open to opportunities, collaborations, and meaningful conversations.</p>
+        </div>
+        <div class="contact__links reveal">
+          <a href="mailto:abdullahazimid@gmail.com" class="contact__item">
+            <span class="contact__kind">Email</span>
+            <span class="contact__value">abdullahazimid@gmail.com</span>
+          </a>
+          <a href="tel:+8801750121341" class="contact__item">
+            <span class="contact__kind">Phone</span>
+            <span class="contact__value">+880 1750-121341</span>
+          </a>
+          <a href="https://www.linkedin.com/in/abdullahazimid/" target="_blank" rel="noopener noreferrer" class="contact__item">
+            <span class="contact__kind">LinkedIn</span>
+            <span class="contact__value">linkedin.com/in/abdullahazimid</span>
+          </a>
+          <div class="contact__item contact__item--static">
+            <span class="contact__kind">Location</span>
+            <span class="contact__value">Dhaka, 1230 · Bangladesh</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Abdullah Al Azim</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
